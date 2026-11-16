@@ -1,0 +1,6 @@
+timestamp,user,host,share,path,operation,count
+2026-05-01T22:44:55Z,CORP\svc-vpn-backup,FS01,Finance,\\FS01\Finance,TreeConnect,1
+2026-05-01T22:45:20Z,CORP\svc-vpn-backup,FS01,Finance,\\FS01\Finance\Q1_payroll.xlsx,Read,1
+2026-05-01T22:45:22Z,CORP\svc-vpn-backup,FS01,Finance,\\FS01\Finance\board_minutes.docx,Read,1
+2026-05-02T00:31:10Z,CORP\backup-agent,FS01,Finance,\\FS01\Finance\Q1_payroll.xlsx,Read,1
+

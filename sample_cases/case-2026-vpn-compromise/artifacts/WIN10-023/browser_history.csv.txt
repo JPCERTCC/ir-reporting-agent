@@ -1,0 +1,5 @@
+timestamp,user,url,title
+2026-05-01T21:10:01Z,j.sato,https://intranet.example.local/portal,Company Portal
+2026-05-01T21:20:40Z,j.sato,https://mail.example.local/owa,Outlook Web
+2026-05-02T00:25:11Z,j.sato,https://helpdesk.example.local/ticket/8821,Helpdesk Ticket 8821
+

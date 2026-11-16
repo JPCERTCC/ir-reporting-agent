@@ -1,0 +1,8 @@
+Timestamp,Reason,Path,FileName
+2026-05-01T22:45:34Z,FILE_CREATE,C:\ProgramData\stage,Finance
+2026-05-01T22:46:02Z,DATA_EXTEND,C:\ProgramData\stage\Finance,Q1_payroll.xlsx
+2026-05-01T22:46:05Z,DATA_EXTEND,C:\ProgramData\stage\Finance,board_minutes.docx
+2026-05-01T22:52:12Z,FILE_CREATE,C:\ProgramData\stage,finance_20260501.7z
+2026-05-01T23:13:12Z,FILE_DELETE,C:\ProgramData\stage\Finance,Q1_payroll.xlsx
+2026-05-01T23:13:14Z,FILE_DELETE,C:\ProgramData\stage\Finance,board_minutes.docx
+

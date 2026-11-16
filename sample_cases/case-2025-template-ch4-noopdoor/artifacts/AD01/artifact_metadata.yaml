@@ -1,0 +1,17 @@
+system: AD01
+system_role: primary_domain_controller
+timezone: Asia/Tokyo
+collection_method: windows_event_edr_mft_usn_export
+source_template_section: "4.2 ADサーバー AD01・AD02"
+files:
+  AD01_Security_20250501-20250605.evtx.txt:
+    original_evidence_id: E-102
+    artifact_kind: windows_security_event_log_excerpt
+  edr_process_network_20250501-20250605.csv.txt:
+    original_evidence_id: E-104
+    artifact_kind: edr_process_network_export
+  AD01_file_access_summary.csv.txt:
+    original_evidence_id: E-118-03
+    artifact_kind: file_access_summary
+  AD01_analyst_notes.md:
+    artifact_kind: analyst_note

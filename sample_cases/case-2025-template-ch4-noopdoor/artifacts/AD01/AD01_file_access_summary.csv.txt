@@ -1,0 +1,5 @@
+timestamp,timezone,host,event_type,path,access_type,related_process,user,notes
+2025-05-10 03:25:19,JST,AD01,FileAccess,C:\Windows\NTDS\NTDS.dit,Read,cmd.exe,SAMPLE\Administrator,E-118-03 NTDS.dit access
+2025-05-10 03:25:48,JST,AD01,FileAccess,C:\Windows\System32\config\SYSTEM,Read,cmd.exe,SAMPLE\Administrator,E-118-01 SYSTEM hive access
+2025-05-10 03:25:49,JST,AD01,FileAccess,C:\Windows\System32\config\SAM,Read,cmd.exe,SAMPLE\Administrator,E-118-02 SAM hive access
+2025-05-10 03:25:50,JST,AD01,FileAccess,C:\Windows\System32\config\SECURITY,Read,cmd.exe,SAMPLE\Administrator,E-118-03 SECURITY hive access

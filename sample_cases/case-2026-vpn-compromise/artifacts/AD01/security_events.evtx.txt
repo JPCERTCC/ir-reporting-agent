@@ -1,0 +1,10 @@
+2026-05-01T22:11:58Z AD01 Security 4624: An account was successfully logged on. LogonType=3 AccountName=svc-vpn-backup SourceNetworkAddress=10.8.14.23 WorkstationName=VPNCLIENT AuthenticationPackage=NTLM
+2026-05-01T22:13:04Z AD01 Security 4672: Special privileges assigned to new logon. AccountName=svc-vpn-backup Privileges=SeBackupPrivilege,SeRestorePrivilege
+2026-05-01T22:14:20Z AD01 Security 4769: A Kerberos service ticket was requested. AccountName=svc-vpn-backup ServiceName=cifs/fs01 ClientAddress=10.8.14.23 TicketEncryptionType=0x17
+2026-05-01T22:16:09Z AD01 Security 4688: A new process has been created. SubjectUserName=svc-vpn-backup NewProcessName=C:\Windows\System32\net.exe CommandLine="net group \"Domain Admins\" /domain"
+2026-05-01T22:16:14Z AD01 Security 4688: A new process has been created. SubjectUserName=svc-vpn-backup NewProcessName=C:\Windows\System32\nltest.exe CommandLine="nltest /dclist:corp.example"
+2026-05-01T22:18:44Z AD01 Security 4720: A user account was created. SubjectUserName=adm-backup AccountName=adm-backup
+2026-05-01T22:19:12Z AD01 Security 4732: A member was added to a security-enabled local group. SubjectUserName=svc-vpn-backup MemberName=adm-backup TargetUserName=Administrators
+2026-05-01T22:25:47Z AD01 Security 1102: The audit log was cleared. SubjectUserName=adm-backup
+2026-05-02T00:18:50Z AD01 Security 4624: An account was successfully logged on. LogonType=3 AccountName=j.sato SourceNetworkAddress=10.8.14.8 WorkstationName=WIN10-023 AuthenticationPackage=Kerberos
+

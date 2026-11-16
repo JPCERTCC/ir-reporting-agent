@@ -1,0 +1,5 @@
+2026-05-01T21:58:12Z radius01 radius: Access-Reject user=svc-vpn-backup nas=vpn01 calling_station=198.51.100.77 reply="invalid password"
+2026-05-01T22:01:44Z radius01 radius: Access-Accept user=svc-vpn-backup nas=vpn01 calling_station=198.51.100.77 group=VPN-Service-Accounts
+2026-05-01T22:01:45Z radius01 radius: Class="MFA-Push-Approved" user=svc-vpn-backup request_id=rad-559812
+2026-05-02T00:12:15Z radius01 radius: Access-Accept user=j.sato nas=vpn01 calling_station=203.0.113.25 group=Employees
+

@@ -1,0 +1,7 @@
+EntryNumber,FileName,Path,CreatedTime,ModifiedTime,AccessedTime,Size
+88120,Finance,C:\ProgramData\stage\Finance,2026-05-01T22:45:34Z,2026-05-01T22:45:34Z,2026-05-01T22:45:34Z,0
+88144,Q1_payroll.xlsx,C:\ProgramData\stage\Finance\Q1_payroll.xlsx,2026-05-01T22:46:02Z,2026-04-28T09:11:00Z,2026-05-01T22:46:02Z,392112
+88145,board_minutes.docx,C:\ProgramData\stage\Finance\board_minutes.docx,2026-05-01T22:46:05Z,2026-04-20T03:30:11Z,2026-05-01T22:46:05Z,81120
+88201,finance_20260501.7z,C:\ProgramData\stage\finance_20260501.7z,2026-05-01T22:52:12Z,2026-05-01T22:58:49Z,2026-05-01T23:12:09Z,184734221
+88202,batch.txt,C:\ProgramData\stage\batch.txt,2026-05-01T23:10:02Z,2026-05-01T23:10:02Z,2026-05-01T23:12:10Z,74
+

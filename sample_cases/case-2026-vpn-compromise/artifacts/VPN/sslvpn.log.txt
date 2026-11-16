@@ -1,0 +1,10 @@
+2026-05-01T21:58:12Z vpn01 sslvpn: auth failed user=svc-vpn-backup src_ip=198.51.100.77 reason="bad password" mfa=not_started
+2026-05-01T22:01:44Z vpn01 sslvpn: auth success user=svc-vpn-backup src_ip=198.51.100.77 mfa=push_approved session_id=vpn-9f31 assigned_ip=10.8.14.23
+2026-05-01T22:02:03Z vpn01 sslvpn: tunnel established user=svc-vpn-backup session_id=vpn-9f31 assigned_ip=10.8.14.23 client="OpenVPN 2.5.9 Windows"
+2026-05-01T22:07:21Z vpn01 sslvpn: route access user=svc-vpn-backup session_id=vpn-9f31 dst=10.20.30.15:443 action=allowed bytes_out=64321 bytes_in=12384
+2026-05-01T22:11:55Z vpn01 sslvpn: route access user=svc-vpn-backup session_id=vpn-9f31 dst=10.10.0.10:445 action=allowed bytes_out=3849 bytes_in=44521
+2026-05-01T22:43:18Z vpn01 sslvpn: route access user=svc-vpn-backup session_id=vpn-9f31 dst=10.10.0.20:445 action=allowed bytes_out=241553 bytes_in=928441
+2026-05-01T23:41:03Z vpn01 sslvpn: tunnel closed user=svc-vpn-backup session_id=vpn-9f31 duration_seconds=5939 bytes_out=8912384 bytes_in=41123877
+2026-05-02T00:12:15Z vpn01 sslvpn: auth success user=j.sato src_ip=203.0.113.25 mfa=push_approved session_id=vpn-a102 assigned_ip=10.8.14.8
+2026-05-02T00:43:09Z vpn01 sslvpn: tunnel closed user=j.sato session_id=vpn-a102 duration_seconds=1854 bytes_out=213982 bytes_in=903112
+

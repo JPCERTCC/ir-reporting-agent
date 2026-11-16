@@ -1,0 +1,19 @@
+AD01 調査メモ。正規化していない走り書き。
+
+気になった点:
+* `svc-vpn-backup` のネットワークログオン元が `10.8.14.23`
+* 4672 special privileges。バックアップ用途の権限として設計上あり得るので、これ単体では怪しいと言い切れない
+* `net group "Domain Admins" /domain` と `nltest /dclist` は探索系に見える
+* `adm-backup` 作成後、Administrators グループへの追加がある
+* その後に Security ログクリア。Subject は `adm-backup`
+
+解釈上の注意:
+サービスアカウントが `SeBackupPrivilege` を持っていること自体は自動的に悪性とは言えない。
+VPN ログオン、探索コマンド、アカウント作成、ログクリアが近接している点が疑わしい。
+
+確認したいこと:
+- `adm-backup` は承認済みメンテナンススクリプトで作られたものか
+- GPO または IAM の変更チケットがあるか
+- `TicketEncryptionType 0x17` はこのドメインで想定内か
+
+このメモ単体を侵害の証明として使わないこと。イベントエクスポートを引用すること。

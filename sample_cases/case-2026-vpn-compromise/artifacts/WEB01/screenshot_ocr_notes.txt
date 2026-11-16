@@ -1,0 +1,16 @@
+スクリーンショット OCR 結果: WEB01 のターミナルとブラウザパネル。
+OCR 品質: 中程度。パス区切りや一部の文字は誤認識の可能性あり。
+
+見えているターミナル領域:
+  deploy@WEB01:/var/www/html/uploads$ ls -la
+  -rw-r--r-- 1 www-data www-data 148 May  1 22:08 shell.php
+  -rw-r--r-- 1 www-data www-data  32 Apr 10 09:00 readme.txt
+
+見えているブラウザ DevTools / Network 領域:
+  GET /uploads/shell.php?cmd=whoami 200
+  GET /uploads/shell.php?cmd=id 200
+  remote address は 10.8.14.23 に見えるが、OCR が少しぼやけている
+
+分析者メモ:
+このスクリーンショットは uploads 配下に `shell.php` が存在したことの補助材料になる。
+ただし、正確な時刻やパスは access log と file listing を優先して引用すること。

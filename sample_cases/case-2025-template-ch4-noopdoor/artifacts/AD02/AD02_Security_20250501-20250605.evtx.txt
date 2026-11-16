@@ -1,0 +1,2 @@
+# E-112: AD02_Security_20250501-20250605.evtx
+2025-05-10 04:12:09 JST AD02 EventID=4624 AccountName=SAMPLE\Administrator LogonType=3 SourceNetworkAddress=10.8.14.23

@@ -1,0 +1,2 @@
+timestamp,timezone,host,event_type,user,process,command_line,notes
+2025-05-10 04:18:31,JST,AD02,process,SAMPLE\Administrator,setspn.exe,"setspn -T SAMPLE -Q */*","AD02でSPN列挙を確認。AD01と同等の認証情報取得操作は確認されていない。"

@@ -1,0 +1,29 @@
+system: FS01
+system_role: file_server
+timezone: Asia/Tokyo
+collection_method: security_event_edr_mft_amcache_live_response
+source_template_section: "4.3 ファイルサーバー FS01"
+files:
+  FS01_Security_20250501-20250605.evtx.txt:
+    original_evidence_id: E-103
+    artifact_kind: windows_security_event_log_excerpt
+  FS01_edr_process_network_20250501-20250605.csv.txt:
+    original_evidence_id: E-104
+    artifact_kind: edr_process_network_export
+  FS01_MFT.csv.txt:
+    original_evidence_id: E-115-01
+    artifact_kind: mft_export
+  FS01_Amcache.csv.txt:
+    original_evidence_id: E-115-04
+    artifact_kind: amcache_export
+  FS01_tasks_20250601.csv.txt:
+    original_evidence_id: E-117-02
+    artifact_kind: scheduled_task_export
+  FS01_netstat_20250601.txt:
+    original_evidence_id: E-117-01
+    artifact_kind: live_response_netstat
+  FS01_firewall_rules_20250601.txt:
+    original_evidence_id: E-117-03
+    artifact_kind: live_response_firewall_rules
+  FS01_analysis_notes.md:
+    artifact_kind: analyst_note

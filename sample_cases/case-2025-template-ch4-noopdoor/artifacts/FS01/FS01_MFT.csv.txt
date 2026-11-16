@@ -1,0 +1,3 @@
+timestamp,timezone,host,artifact,path,entry_type,record_status,created,file_recovered,hash_available,notes
+2025-05-11 01:40:23,JST,FS01,MFT,C:\ProgramData\Microsoft\UIAnimation.xml,File,Allocated,2025-05-11 01:40:23 JST,true,true,E-115-01 UIAnimation.xml created
+2025-05-17 20:42:55,JST,FS01,MFT,C:\ProgramData\Microsoft\collect_20250517.rar,FileNameTrace,Unknown,2025-05-17 20:42:55 JST,false,false,"MFT上のファイル名痕跡。RAR本体は未取得。"

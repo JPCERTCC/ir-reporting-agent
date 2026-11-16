@@ -1,0 +1,5 @@
+2026-05-01T22:07:22Z fw01 NAT create original_src=10.8.14.23 translated_src=172.16.250.23 dst=10.20.30.15 dst_port=443 session=fw-s-10001
+2026-05-01T23:12:11Z fw01 NAT create original_src=10.10.0.20 translated_src=198.51.100.10 dst=203.0.113.88 dst_port=22 session=fw-s-10188
+2026-05-01T23:14:40Z fw01 NAT update original_src=10.10.0.20 translated_src=198.51.100.10 dst=203.0.113.88 dst_port=22 session=fw-s-10188 bytes_out=263002492 bytes_in=15123
+2026-05-01T23:50:02Z fw01 NAT close session=fw-s-10188 reason=aged-out
+

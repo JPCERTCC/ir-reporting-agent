@@ -1,0 +1,21 @@
+system: VPN
+system_role: vpn_gateway
+timezone: UTC
+collection_method: mixed_export_and_operator_notes
+notes: >
+  Files in this folder mix appliance logs, RADIUS output, config snippets, and
+  pasted operator conversation. Metadata is context only.
+files:
+  sslvpn.log.txt:
+    artifact_kind: vpn_session_log
+    source_tool: vpn appliance export
+  vpn_radius.log.txt:
+    artifact_kind: radius_auth_log
+    source_tool: radius server text export
+  vpn_config_export.txt:
+    artifact_kind: vpn_config_snippet
+    source_tool: admin console copy
+  operator_chat_paste.txt:
+    artifact_kind: operator_chat_excerpt
+    source_tool: manual copy paste
+

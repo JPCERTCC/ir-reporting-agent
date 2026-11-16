@@ -1,0 +1,4 @@
+# E-101: vpn-tokyo-01_ssl-vpn_20250501-20250605.log
+2025-05-10 02:14:08 JST sslvpn-login user="SAMPLE\svc-backup" srcip=89[.]233[.]109[.]69 result=success tunnel_ip=10.8.14.23
+2025-05-10 02:14:11 JST sslvpn-tunnel user="SAMPLE\svc-backup" srcip=89[.]233[.]109[.]69 action=tunnel-up
+2025-05-10 03:08:44 JST sslvpn-tunnel user="SAMPLE\svc-backup" srcip=89[.]233[.]109[.]69 action=tunnel-down

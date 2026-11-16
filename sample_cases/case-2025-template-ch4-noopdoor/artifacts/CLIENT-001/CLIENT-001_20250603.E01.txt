@@ -1,0 +1,5 @@
+# E-003: CLIENT-001_20250603.E01
+2025-05-13 00:01:12 JST CLIENT-001 Security User=SAMPLE\Administrator LogonType=3 Source=AD01
+2025-05-13 00:02:03 JST CLIENT-001 MFT Path="C:\ProgramData\Microsoft\UIAnimation.xml" Action=FileCreate
+2025-05-13 00:02:17 JST CLIENT-001 Prefetch Executable="MSBUILD.EXE" LastRun=2025-05-13 00:02:17 JST
+2025-05-13 00:02:29 JST CLIENT-001 Registry Key="HKCU\Software\Licenses\4F2C91" Action=SetValue

@@ -1,0 +1,4 @@
+# E-116-01: AVMGMT01_registry_export.reg
+2025-05-12 23:14:38 JST AVMGMT01 Registry
+Key="HKCU\Software\Microsoft\COM3\B72A90"
+Action=SetValue

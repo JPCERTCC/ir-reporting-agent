@@ -1,0 +1,18 @@
+system: Firewall
+system_role: perimeter_firewall
+timezone: UTC
+collection_method: siem_export_and_admin_clipboard
+files:
+  fw_traffic.csv.txt:
+    artifact_kind: firewall_traffic_csv
+    source_tool: SIEM search export
+  nat_session.log.txt:
+    artifact_kind: nat_session_log
+    source_tool: firewall appliance session export
+  blocked_events.log.txt:
+    artifact_kind: blocked_security_events
+    source_tool: firewall threat log export
+  firewall_admin_clipboard.txt:
+    artifact_kind: analyst_admin_clipboard
+    source_tool: manual copy paste
+

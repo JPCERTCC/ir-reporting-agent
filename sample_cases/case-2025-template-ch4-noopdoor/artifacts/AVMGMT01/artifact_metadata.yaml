@@ -1,0 +1,17 @@
+system: AVMGMT01
+system_role: antivirus_management_server
+timezone: Asia/Tokyo
+collection_method: edr_registry_windows_event_firewall
+source_template_section: "4.4 管理サーバー AVMGMT01"
+files:
+  AVMGMT01_edr_process_network_20250501-20250605.csv.txt:
+    original_evidence_id: E-104
+    artifact_kind: edr_process_network_export
+  AVMGMT01_registry_export.reg.txt:
+    original_evidence_id: E-116-01
+    artifact_kind: registry_export_excerpt
+  AVMGMT01_Security_System_Defender_20250501-20250605.evtx.txt:
+    original_evidence_id: E-113
+    artifact_kind: windows_security_system_defender_excerpt
+  AVMGMT01_analysis_notes.md:
+    artifact_kind: analyst_note

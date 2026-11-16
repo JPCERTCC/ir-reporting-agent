@@ -1,0 +1,13 @@
+エクスポート時刻: 2026-05-02T09:00:00Z
+対象機器: vpn01
+関連設定:
+- split_tunnel: disabled
+- mfa_required: true
+- service_account_group: VPN-Service-Accounts
+- logging: authentication, session, route-access
+- retained_days: 14
+
+アカウントメモ:
+- `svc-vpn-backup` は旧バックアップベンダー接続用のサービスアカウント。
+- `2026-05-01 22:00Z` 台の承認済みメンテナンス枠は見つかっていない。
+- 収集時点ではパスワードローテーション状況は不明。

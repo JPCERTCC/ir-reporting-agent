@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ir-agent"
+version = "0.1.0"
+description = "IR Reporting Support Agent — a CLI application that assists incident response analysts in creating investigation reports where every claim is grounded in human-approved evidence."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE.txt"}
+
+dependencies = [
+    "click>=8.1",
+    "pyyaml>=6.0",
+    "pydantic>=2.0",
+    "chardet>=5.0",
+    "pypdf>=4.0",
+    "python-dateutil>=2.8",
+    "pytz>=2023.3",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "hypothesis>=6.0",
+    "ruff>=0.1",
+    "mypy>=1.0",
+]
+
+[project.scripts]
+ir-agent = "ir_agent.cli.main:cli"
+
+[tool.setuptools.packages.find]
+include = ["ir_agent*"]
+
+[tool.setuptools.package-data]
+"ir_agent.reporting" = ["templates/*.md"]
+"ir_agent.governance" = ["templates/*.html"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP"]
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+warn_return_any = true
+warn_unused_configs = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"

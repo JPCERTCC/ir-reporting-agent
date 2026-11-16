@@ -1,0 +1,9 @@
+timestamp,device,src_ip,src_zone,dst_ip,dst_zone,dst_port,protocol,action,bytes_out,bytes_in,rule
+2026-05-01T22:07:22Z,fw01,10.8.14.23,vpn,10.20.30.15,dmz,443,tcp,allow,64321,12384,vpn_to_web_https
+2026-05-01T22:11:56Z,fw01,10.8.14.23,vpn,10.10.0.10,internal,445,tcp,allow,3849,44521,vpn_to_ad_smb
+2026-05-01T22:43:20Z,fw01,10.8.14.23,vpn,10.10.0.20,internal,445,tcp,allow,241553,928441,vpn_to_fs_smb
+2026-05-01T23:12:11Z,fw01,10.10.0.20,internal,203.0.113.88,internet,22,tcp,allow,184734221,9134,egress_sftp_approved
+2026-05-01T23:14:40Z,fw01,10.10.0.20,internal,203.0.113.88,internet,22,tcp,allow,78233111,4921,egress_sftp_approved
+2026-05-02T00:12:16Z,fw01,10.8.14.8,vpn,10.10.0.25,internal,3389,tcp,allow,32922,88512,vpn_to_rdp_helpdesk
+2026-05-02T01:03:00Z,fw01,10.8.14.23,vpn,10.10.0.30,internal,3389,tcp,deny,0,0,deny_vpn_rdp
+

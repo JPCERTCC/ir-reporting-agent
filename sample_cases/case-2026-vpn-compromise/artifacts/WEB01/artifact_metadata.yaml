@@ -1,0 +1,24 @@
+system: WEB01
+system_role: public_web_server
+timezone: UTC
+collection_method: log_bundle_and_screenshot_ocr
+files:
+  access.log.txt:
+    artifact_kind: web_access_log
+    source_tool: nginx/apache access log copy
+  auth.log.txt:
+    artifact_kind: linux_auth_log
+    source_tool: journal export
+  syslog.txt:
+    artifact_kind: linux_syslog
+    source_tool: syslog copy
+  webroot_file_listing.csv.txt:
+    artifact_kind: webroot_file_listing
+    source_tool: find/stat export
+  analyst_notes.md:
+    artifact_kind: analyst_note
+    source_tool: manual note
+  screenshot_ocr_notes.txt:
+    artifact_kind: screenshot_ocr
+    source_tool: OCR from analyst screenshot
+

@@ -1,0 +1,6 @@
+path,owner,group,mode,size,mtime,sha256
+/var/www/html/index.html,www-data,www-data,0644,2041,2026-04-12T10:22:01Z,41b6e9d9d8c3e5a95c1a4a1e3e6a778ed
+/var/www/html/admin/upload.php,www-data,www-data,0644,3950,2026-03-19T02:14:33Z,7f4d3e18d2c14bbfbcb6177a
+/var/www/html/uploads/shell.php,www-data,www-data,0644,148,2026-05-01T22:08:42Z,99b2d8b894775f3d7a2f99ff4f5e5c6a
+/var/www/html/uploads/readme.txt,www-data,www-data,0644,32,2026-04-10T09:00:00Z,a0b1c2d3e4f506172839405162738495
+

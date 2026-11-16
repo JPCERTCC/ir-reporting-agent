@@ -1,0 +1,12 @@
+system: AD02
+system_role: secondary_domain_controller
+timezone: Asia/Tokyo
+collection_method: windows_event_edr_export
+source_template_section: "4.2 ADサーバー AD01・AD02"
+files:
+  AD02_Security_20250501-20250605.evtx.txt:
+    original_evidence_id: E-112
+    artifact_kind: windows_security_event_log_excerpt
+  AD02_edr_process_network_20250501-20250605.csv.txt:
+    original_evidence_id: E-104
+    artifact_kind: edr_process_network_export

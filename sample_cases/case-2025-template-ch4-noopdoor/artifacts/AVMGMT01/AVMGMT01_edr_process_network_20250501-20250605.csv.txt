@@ -1,0 +1,3 @@
+timestamp,timezone,host,event_type,user,process,path,action,dst,dst_port,protocol,notes
+2025-05-12 23:10:06,JST,AVMGMT01,file,SAMPLE\Administrator,,C:\Windows\System32\NOOPLDR.dll,CreateFile,,,,"NOOPLDR.dll配置"
+2025-05-12 23:20:41,JST,AVMGMT01,network,,svchost.exe,,NetworkConnect,207[.]148[.]90[.]45,443,tcp,"外部HTTPS通信"

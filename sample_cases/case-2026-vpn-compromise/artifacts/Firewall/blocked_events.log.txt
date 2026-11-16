@@ -1,0 +1,4 @@
+2026-05-01T22:09:00Z fw01 threat: action=blocked src=10.8.14.23 dst=10.20.30.16 port=8080 signature="Web Admin Probe"
+2026-05-01T22:09:03Z fw01 threat: action=blocked src=10.8.14.23 dst=10.20.30.17 port=8443 signature="TLS Invalid SNI"
+2026-05-02T01:03:00Z fw01 policy: action=deny src=10.8.14.23 dst=10.10.0.30 port=3389 rule=deny_vpn_rdp
+

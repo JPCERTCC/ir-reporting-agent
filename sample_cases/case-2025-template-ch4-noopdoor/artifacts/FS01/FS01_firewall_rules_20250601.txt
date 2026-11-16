@@ -1,0 +1,7 @@
+# E-117-03: FS01_firewall_rules_20250601.txt
+2025-06-01 10:18:42 JST FS01 Windows Firewall
+RuleName="Update Service"
+LocalPort=47000
+Protocol=TCP
+Action=Allow
+Enabled=True

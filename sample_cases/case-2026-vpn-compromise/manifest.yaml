@@ -1,0 +1,70 @@
+# IR Case Manifest
+
+case_id: "case-2026-vpn-compromise"
+case_name: "VPN Compromise and File Server Staging Investigation"
+scope: >
+  Synthetic investigation of suspected VPN credential compromise, web server
+  access, Active Directory discovery, Windows client activity, and file server
+  staging/external transfer during 2026-05-01 through 2026-05-03.
+hosts:
+  - "AD01"
+  - "Firewall"
+  - "VPN"
+  - "WEB01"
+  - "FS01"
+  - "WIN10-023"
+time_range:
+  start: "2026-05-01T00:00:00Z"
+  end: "2026-05-03T23:59:59Z"
+report_language: "ja"
+review_language: "ja"
+report_timezone: "Asia/Tokyo"
+rubric:
+  require_evidence_id_for_each_claim: true
+  prohibit_unapproved_claims: true
+  require_uncertainty_label: true
+  require_source_excerpt: true
+expression_policy:
+  confirmed:
+    default:
+      recommended_expressions:
+        - "confirmed"
+        - "observed"
+      prohibited_expressions:
+        - "may have"
+    by_category: {}
+  probable:
+    default:
+      recommended_expressions:
+        - "likely"
+        - "is consistent with"
+      prohibited_expressions:
+        - "confirmed"
+        - "definitely"
+    by_category: {}
+  possible:
+    default:
+      recommended_expressions:
+        - "possibly"
+        - "may indicate"
+      prohibited_expressions:
+        - "confirmed"
+        - "definitely"
+    by_category: {}
+  unknown:
+    default:
+      recommended_expressions:
+        - "could not be determined"
+      prohibited_expressions:
+        - "did not occur"
+    by_category: {}
+  not_observed:
+    default:
+      recommended_expressions:
+        - "not observed within the provided evidence"
+      prohibited_expressions:
+        - "impossible"
+        - "never occurred"
+    by_category: {}
+max_chunk_size: 3000
+chunk_overlap: 50

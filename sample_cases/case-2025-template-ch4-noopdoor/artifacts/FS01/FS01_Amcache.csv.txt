@@ -1,0 +1,2 @@
+timestamp,timezone,host,artifact,executable,command_line,user,notes
+2025-05-11 01:44:09,JST,FS01,Amcache,C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe,"MSBuild.exe C:\ProgramData\Microsoft\UIAnimation.xml",SAMPLE\Administrator,E-115-04 MSBuild execution trace

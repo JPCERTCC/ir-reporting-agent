@@ -1,0 +1,43 @@
+# IR Case Manifest
+# Edit this file to configure the case scope, rules, and expression policy.
+
+case_id: "IR_report_agent"
+case_name: "Untitled Case"
+scope: "Define investigation scope here"
+hosts:
+  - "host01"
+time_range:
+  start: "2024-01-01T00:00:00Z"
+  end: "2024-12-31T23:59:59Z"
+report_language: "ja"
+review_language: "ja"
+report_timezone: "Asia/Tokyo"
+rubric: {}
+expression_policy:
+  confirmed:
+    default:
+      recommended_expressions: []
+      prohibited_expressions: []
+    by_category: {}
+  probable:
+    default:
+      recommended_expressions: []
+      prohibited_expressions: []
+    by_category: {}
+  possible:
+    default:
+      recommended_expressions: []
+      prohibited_expressions: []
+    by_category: {}
+  unknown:
+    default:
+      recommended_expressions: []
+      prohibited_expressions: []
+    by_category: {}
+  not_observed:
+    default:
+      recommended_expressions: []
+      prohibited_expressions: []
+    by_category: {}
+max_chunk_size: 3000
+chunk_overlap: 50

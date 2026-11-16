@@ -1,0 +1,14 @@
+system: vpn-tokyo-01
+system_role: ssl_vpn_gateway
+timezone: Asia/Tokyo
+collection_method: appliance_log_export
+source_template_section: "4.1 VPN装置 vpn-tokyo-01"
+notes: >
+  4章の E-101 に相当するSSL-VPNログと、ファームウェア/管理画面に関する
+  自由記述メモを含む。metadata は文脈情報であり、単独では証拠ではない。
+files:
+  vpn-tokyo-01_ssl-vpn_20250501-20250605.log.txt:
+    original_evidence_id: E-101
+    artifact_kind: ssl_vpn_session_log
+  vpn_device_assessment_notes.md:
+    artifact_kind: analyst_note

@@ -1,0 +1,5 @@
+UtcTime,EventID,Host,User,Image,CommandLine,ParentImage,DestinationIp,DestinationPort,Hash
+2026-05-01T21:42:05Z,1,WIN10-023,CORP\j.sato,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,powershell Get-Process,C:\Windows\explorer.exe,,,
+2026-05-02T00:20:00Z,1,WIN10-023,CORP\j.sato,C:\Windows\System32\mstsc.exe,mstsc.exe /v:FS01,C:\Windows\explorer.exe,,,
+2026-05-02T00:20:02Z,3,WIN10-023,CORP\j.sato,C:\Windows\System32\mstsc.exe,mstsc.exe /v:FS01,C:\Windows\explorer.exe,10.10.0.20,3389,
+

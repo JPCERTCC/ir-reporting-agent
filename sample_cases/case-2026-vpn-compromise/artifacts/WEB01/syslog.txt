@@ -1,0 +1,5 @@
+May 01 22:08:42 WEB01 kernel: audit: type=1300 msg=audit(1777673322.001:420): arch=c000003e syscall=2 success=yes exe="/usr/sbin/apache2" name="/var/www/html/uploads/shell.php"
+May 01 22:09:11 WEB01 apache2[1812]: php-fpm executed cmd parameter for /uploads/shell.php remote=10.8.14.23 cmd=whoami
+May 01 22:09:19 WEB01 apache2[1812]: php-fpm executed cmd parameter for /uploads/shell.php remote=10.8.14.23 cmd=id
+May 01 22:10:30 WEB01 apache2[1812]: php-fpm executed cmd parameter for /uploads/shell.php remote=10.8.14.23 cmd="cat /etc/passwd"
+

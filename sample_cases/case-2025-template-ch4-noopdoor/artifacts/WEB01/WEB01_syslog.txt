@@ -1,0 +1,2 @@
+# E-114-02: WEB01_syslog
+2025-05-14 22:40:17 JST WEB01 syslog user command history file truncated

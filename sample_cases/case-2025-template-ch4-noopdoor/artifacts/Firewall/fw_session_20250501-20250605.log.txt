@@ -1,0 +1,4 @@
+# E-110: fw_session_20250501-20250605.log
+2025-05-18 00:13:31 JST FW Session src=FS01 dst=45[.]77[.]183[.]161 dst_port=443 protocol=tcp bytes_out=184734221 bytes_in=2918442 session_count=28 action=allow
+2025-05-12 23:20:43 JST FW Session src=AVMGMT01 dst=207[.]148[.]90[.]45 dst_port=443 protocol=tcp bytes_out=12845770 bytes_in=9341220 action=allow
+2025-05-14 22:31:09 JST FW Session src=WEB01 dst=207[.]148[.]103[.]42 dst_port=443 protocol=tcp bytes_out=4351902 bytes_in=2183440 action=allow

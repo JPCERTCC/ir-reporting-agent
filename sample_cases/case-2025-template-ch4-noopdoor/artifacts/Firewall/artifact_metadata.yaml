@@ -1,0 +1,9 @@
+system: Firewall
+system_role: perimeter_firewall
+timezone: Asia/Tokyo
+collection_method: firewall_session_export
+source_template_section: "4.3, 4.4, 4.5 外部通信関連"
+files:
+  fw_session_20250501-20250605.log.txt:
+    original_evidence_id: E-110
+    artifact_kind: firewall_session_log

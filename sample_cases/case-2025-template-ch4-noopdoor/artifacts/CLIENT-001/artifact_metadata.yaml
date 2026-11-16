@@ -1,0 +1,11 @@
+system: CLIENT-001
+system_role: windows_client
+timezone: Asia/Tokyo
+collection_method: disk_image_forensic_extract
+source_template_section: "4.6 CLIENT-001"
+files:
+  CLIENT-001_20250603.E01.txt:
+    original_evidence_id: E-003
+    artifact_kind: disk_image_extracted_artifact_excerpt
+  CLIENT-001_analysis_notes.md:
+    artifact_kind: analyst_note

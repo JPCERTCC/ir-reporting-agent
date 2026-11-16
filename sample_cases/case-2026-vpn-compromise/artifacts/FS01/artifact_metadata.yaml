@@ -1,0 +1,30 @@
+system: FS01
+system_role: file_server
+timezone: UTC
+collection_method: forensic_export_bundle
+notes: >
+  Metadata is optional. These hints help the agent understand artifact context
+  but are not evidence by themselves.
+files:
+  edr_process_network.csv.txt:
+    artifact_kind: edr_process_network
+    source_tool: EDR console export
+  mft.csv.txt:
+    artifact_kind: ntfs_mft
+    source_tool: forensic parser export
+  usn_journal.csv.txt:
+    artifact_kind: ntfs_usn_journal
+    source_tool: forensic parser export
+  prefetch.csv.txt:
+    artifact_kind: windows_prefetch
+    source_tool: prefetch parser export
+  file_access_summary.csv.txt:
+    artifact_kind: file_server_audit_summary
+    source_tool: SIEM query result
+  analyst_notes.md:
+    artifact_kind: analyst_note
+    source_tool: manual analyst note
+  freeform_triage_notes.txt:
+    artifact_kind: analyst_scratchpad
+    source_tool: shift handoff note
+

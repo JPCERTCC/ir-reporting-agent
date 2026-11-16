@@ -1,0 +1,2 @@
+timestamp,timezone,host,artifact,task_name,action,status,notes
+2025-06-01 10:18:42,JST,FS01,ScheduledTask,\Microsoft\Windows\Update\UpdateCheck,"MSBuild.exe C:\ProgramData\Microsoft\UIAnimation.xml",Ready,E-117-02 persistence task still present

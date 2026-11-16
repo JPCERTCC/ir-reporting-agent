@@ -1,0 +1,8 @@
+2026-05-01T22:07:24Z 10.8.14.23 - - "GET /admin/login.php HTTP/1.1" 200 1842 "-" "Mozilla/5.0"
+2026-05-01T22:08:02Z 10.8.14.23 - - "POST /admin/login.php HTTP/1.1" 302 312 "-" "Mozilla/5.0"
+2026-05-01T22:08:41Z 10.8.14.23 - - "POST /admin/upload.php HTTP/1.1" 200 91 "https://web01/admin/panel.php" "Mozilla/5.0"
+2026-05-01T22:09:11Z 10.8.14.23 - - "GET /uploads/shell.php?cmd=whoami HTTP/1.1" 200 37 "-" "curl/8.0.1"
+2026-05-01T22:09:19Z 10.8.14.23 - - "GET /uploads/shell.php?cmd=id HTTP/1.1" 200 55 "-" "curl/8.0.1"
+2026-05-01T22:10:30Z 10.8.14.23 - - "GET /uploads/shell.php?cmd=cat+/etc/passwd HTTP/1.1" 200 1840 "-" "curl/8.0.1"
+2026-05-02T03:20:00Z 198.51.100.45 - - "GET /index.html HTTP/1.1" 200 2041 "-" "Mozilla/5.0"
+

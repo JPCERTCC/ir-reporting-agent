@@ -1,0 +1,21 @@
+system: WIN10-023
+system_role: windows_client
+timezone: UTC
+collection_method: endpoint_triage_and_helpdesk_notes
+files:
+  security_events.evtx.txt:
+    artifact_kind: windows_security_event_text
+    source_tool: evtx text export
+  sysmon.csv.txt:
+    artifact_kind: sysmon_csv
+    source_tool: sysmon export
+  browser_history.csv.txt:
+    artifact_kind: browser_history
+    source_tool: browser history parser
+  analyst_notes.md:
+    artifact_kind: analyst_note
+    source_tool: manual note
+  helpdesk_ticket_notes.md:
+    artifact_kind: helpdesk_ticket_excerpt
+    source_tool: ticket copy paste
+

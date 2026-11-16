@@ -1,0 +1,14 @@
+system: WEB01
+system_role: public_web_server
+timezone: Asia/Tokyo
+collection_method: linux_log_firewall_recovered_history
+source_template_section: "4.5 公開サーバー WEB01"
+files:
+  WEB01_bash_history.recovered.txt:
+    original_evidence_id: E-114-03
+    artifact_kind: recovered_bash_history
+  WEB01_syslog.txt:
+    original_evidence_id: E-114-02
+    artifact_kind: linux_syslog_excerpt
+  WEB01_analysis_notes.md:
+    artifact_kind: analyst_note

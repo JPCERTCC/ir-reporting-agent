@@ -1,0 +1,21 @@
+system: AD01
+system_role: domain_controller
+timezone: UTC
+collection_method: evtx_text_export_and_notes
+files:
+  security_events.evtx.txt:
+    artifact_kind: windows_security_event_text
+    source_tool: evtx text export
+  sysmon_process_network.csv.txt:
+    artifact_kind: sysmon_process_network_csv
+    source_tool: sysmon export
+  powershell_operational.evtx.txt:
+    artifact_kind: powershell_operational_text
+    source_tool: evtx text export
+  analyst_notes.md:
+    artifact_kind: analyst_note
+    source_tool: manual note
+  freeform_investigation_notes.txt:
+    artifact_kind: analyst_scratchpad
+    source_tool: manual note
+
